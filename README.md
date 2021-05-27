@@ -26,16 +26,16 @@ How do I add it to my project?
 --------------
 Simply add the following to your `pom.xml`.
 
-    <repository>
-      <id>tiger-repo</id>
-      <url>http://repo.tigerhix.me/content/repositories/snapshots/</url>
-    </repository>
-
-    <dependency>
-      <groupId>me.tigerhix.lib</groupId>
-      <artifactId>scoreboard</artifactId>
-      <version>1.0.1-SNAPSHOT</version>
-    </dependency>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+	
+        <dependency>
+            <groupId>com.github.GardeningTool</groupId>
+            <artifactId>ScoreboardLib</artifactId>
+            <version>d642b54bef</version>
+        </dependency>
 
 Now you are able to create your own pretty scoreboards.
 
